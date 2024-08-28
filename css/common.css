@@ -13,6 +13,7 @@ body {
   line-height: 1.5;
 }
 
+/* TASK-1 */
 #categories {
   list-style: none;
   padding: 24px; 
@@ -22,6 +23,7 @@ body {
   padding: 16px;
   border-radius: 8px;
   background-color: #f6f6fe;
+  width: 360px;
 }
 
 .item ul {
@@ -35,4 +37,155 @@ body {
   color: #2e2f42;
   padding: 8px 16px;
   margin-top: 8px;
+}
+
+
+/* TASK-2 */
+.gallery {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  width: 1128px;
+  padding: 0;
+  margin: auto;
+}
+.gallery img {
+  width: 360px;
+}
+
+
+/* TASK-3 */
+input {
+  padding: 8px 16px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+}
+
+
+/* TASK-4 */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.login-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.login-form button {
+  background-color: #4e75ff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  margin-top: 8px;
+  width: max-content;  
+}
+
+.login-form button:hover {
+  background-color: #6c8cff;
+}
+
+/* TASK-5 */
+.widget {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+.change-color {
+  background-color: #4e75ff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  width: max-content;
+}
+
+.change-color:hover {
+  background-color: #6c8cff;
+}
+
+
+/* TASK-6 */
+#controls {
+  display: flex;
+  gap: 16px;
+  padding: 32px;
+  border-radius: 8px;
+  background-color: #f6f6fe;
+}
+
+#controls input {  
+  border: 1px solid #808080;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  padding: 8px 16px;
+  text-align: center;
+  width: 150px;  
+}
+
+.create {
+  background-color: #4e75ff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.create:hover {
+  background-color: #6c8cff;
+}
+
+.destroy {
+  background-color: #ff4e4e;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.destroy:hover {
+  background-color: #ff7070;
+}
+
+#boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 32px;
+  border-radius: 8px;
+  background-color: #f6f6fe;
 }
